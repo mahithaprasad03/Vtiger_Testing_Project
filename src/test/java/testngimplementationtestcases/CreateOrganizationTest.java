@@ -53,7 +53,7 @@ public class CreateOrganizationTest extends BaseClass {
 		String newOrganizationInfo = organizationInfo.getNewOrganizationInfo();
 		
 		soft.assertTrue(newOrganizationInfo.contains(accountName));
-//		
+		
 //		if(newOrganizationInfo.contains(accountName))
 //			System.out.println("Pass: New Organization Info page displayed");
 //		else
